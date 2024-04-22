@@ -1,8 +1,10 @@
-import { Room } from "./Room";
-import { CollaborativeApp } from "./CollaborativeApp";
+"use client"
+import Live from "@/components/Live";
 
 export default function Page() {
   return (
-    <h1 className="font-5xl text-white">Liveblocks Figma Clone</h1>
+    <div>
+      <Live />
+    </div>
   );
 }

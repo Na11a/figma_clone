@@ -1,6 +1,6 @@
 "use client";
 
-import { useOthers } from "../liveblocks.config";
+import { useOthers } from "../assets/liveblocks.config";
 
 export function CollaborativeApp() {
   const others = useOthers();
